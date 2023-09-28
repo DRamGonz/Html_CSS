@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <dic class="container">
+        <div id="blender" class="blender">
+            <div id="blender-button" class="blender-button" onclick="controlarLicuadora()"></div>    
+        </div>
+    </dic>
+    <!--Vincular el sonido con el html-->
+    <audio id="blender-button-sound" src="sounds/botonLicuadora.mp3" type="audio/mpeg"></audio>
+    <!--El atributo loop es para que se siga repitiendo el sonido-->
+    <audio id="blender-sound" src="sounds/licuadora.mp3" type="audio/mpeg" loop></audio>
+    <!--El js se pone al final para que lea la clase primero-->
+    <script src="JS/motorcito.js"></script>
+</body>
+</html>
