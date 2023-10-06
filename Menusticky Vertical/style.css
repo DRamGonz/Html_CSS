@@ -1,0 +1,53 @@
+html {
+    /*Para el desplazamiento por la página*/
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+.menu {
+padding: 40px;
+padding-top: 20px;
+background: rgb(236, 125, 125);
+
+}
+.menu-content {
+    /*Para que no baje el menú*/
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.menu h1{
+    margin-bottom: 30px;
+}
+
+.menu a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu li{
+    /*Para que el texto no salte de linea*/
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.menu ul{
+    /*Para que el texto no salte de linea*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+padding: 40px;
+text-align: justify;
+}
